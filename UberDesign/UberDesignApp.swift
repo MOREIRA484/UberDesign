@@ -11,7 +11,7 @@ import SwiftUI
 struct UberDesignApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeApp()
         }
     }
 }

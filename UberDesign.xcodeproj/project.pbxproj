@@ -8,17 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		8EA816392AB3A4F500612D9B /* UberDesignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA816382AB3A4F500612D9B /* UberDesignApp.swift */; };
-		8EA8163B2AB3A4F500612D9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA8163A2AB3A4F500612D9B /* ContentView.swift */; };
+		8EA8163B2AB3A4F500612D9B /* HomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA8163A2AB3A4F500612D9B /* HomeApp.swift */; };
 		8EA8163D2AB3A4F700612D9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EA8163C2AB3A4F700612D9B /* Assets.xcassets */; };
 		8EA816402AB3A4F700612D9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EA8163F2AB3A4F700612D9B /* Preview Assets.xcassets */; };
+		8EA8164B2AB3A62C00612D9B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA8164A2AB3A62C00612D9B /* HeaderView.swift */; };
+		8EA8164D2AB3AB8900612D9B /* SaldoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA8164C2AB3AB8900612D9B /* SaldoView.swift */; };
+		8EA8164F2AB3B34800612D9B /* FormaDePagar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA8164E2AB3B34800612D9B /* FormaDePagar.swift */; };
+		8EA816512AB3F6C800612D9B /* CartaoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA816502AB3F6C800612D9B /* CartaoView.swift */; };
+		8EA816532AB49BA900612D9B /* Pagamentos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA816522AB49BA900612D9B /* Pagamentos.swift */; };
+		8EA816552AB4A60A00612D9B /* AtalhoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA816542AB4A60A00612D9B /* AtalhoView.swift */; };
+		8EA816572AB4A93700612D9B /* Atalhos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA816562AB4A93700612D9B /* Atalhos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8EA816352AB3A4F500612D9B /* UberDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EA816382AB3A4F500612D9B /* UberDesignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberDesignApp.swift; sourceTree = "<group>"; };
-		8EA8163A2AB3A4F500612D9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8EA8163A2AB3A4F500612D9B /* HomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeApp.swift; sourceTree = "<group>"; };
 		8EA8163C2AB3A4F700612D9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EA8163F2AB3A4F700612D9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8EA8164A2AB3A62C00612D9B /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		8EA8164C2AB3AB8900612D9B /* SaldoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaldoView.swift; sourceTree = "<group>"; };
+		8EA8164E2AB3B34800612D9B /* FormaDePagar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormaDePagar.swift; sourceTree = "<group>"; };
+		8EA816502AB3F6C800612D9B /* CartaoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartaoView.swift; sourceTree = "<group>"; };
+		8EA816522AB49BA900612D9B /* Pagamentos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagamentos.swift; sourceTree = "<group>"; };
+		8EA816542AB4A60A00612D9B /* AtalhoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtalhoView.swift; sourceTree = "<group>"; };
+		8EA816562AB4A93700612D9B /* Atalhos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atalhos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +66,8 @@
 			isa = PBXGroup;
 			children = (
 				8EA816382AB3A4F500612D9B /* UberDesignApp.swift */,
-				8EA8163A2AB3A4F500612D9B /* ContentView.swift */,
+				8EA816472AB3A5A600612D9B /* Models */,
+				8EA816462AB3A5A000612D9B /* View */,
 				8EA8163C2AB3A4F700612D9B /* Assets.xcassets */,
 				8EA8163E2AB3A4F700612D9B /* Preview Content */,
 			);
@@ -65,6 +80,28 @@
 				8EA8163F2AB3A4F700612D9B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8EA816462AB3A5A000612D9B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8EA8163A2AB3A4F500612D9B /* HomeApp.swift */,
+				8EA8164A2AB3A62C00612D9B /* HeaderView.swift */,
+				8EA8164C2AB3AB8900612D9B /* SaldoView.swift */,
+				8EA8164E2AB3B34800612D9B /* FormaDePagar.swift */,
+				8EA816502AB3F6C800612D9B /* CartaoView.swift */,
+				8EA816542AB4A60A00612D9B /* AtalhoView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8EA816472AB3A5A600612D9B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8EA816522AB49BA900612D9B /* Pagamentos.swift */,
+				8EA816562AB4A93700612D9B /* Atalhos.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +174,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EA8163B2AB3A4F500612D9B /* ContentView.swift in Sources */,
+				8EA8164D2AB3AB8900612D9B /* SaldoView.swift in Sources */,
+				8EA816572AB4A93700612D9B /* Atalhos.swift in Sources */,
+				8EA8164F2AB3B34800612D9B /* FormaDePagar.swift in Sources */,
+				8EA8163B2AB3A4F500612D9B /* HomeApp.swift in Sources */,
+				8EA8164B2AB3A62C00612D9B /* HeaderView.swift in Sources */,
+				8EA816512AB3F6C800612D9B /* CartaoView.swift in Sources */,
 				8EA816392AB3A4F500612D9B /* UberDesignApp.swift in Sources */,
+				8EA816532AB49BA900612D9B /* Pagamentos.swift in Sources */,
+				8EA816552AB4A60A00612D9B /* AtalhoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
