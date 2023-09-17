@@ -19,6 +19,7 @@ struct FormaDePagar: View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 40){
                
+                //MARK: FOREACH DOS TIPOS DE PAGAMENTOS
                     
             ForEach(MockData.pagamentos) { pagamentoss in
                     

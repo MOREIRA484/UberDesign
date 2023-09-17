@@ -16,6 +16,10 @@ struct HeaderView: View {
         
          
             HStack(spacing: 5){
+                
+                //MARK: FOTO DO USUÁRIO
+                
+                
                 Image("leonardo")
                     .resizable()
                     .scaledToFill()
@@ -24,6 +28,9 @@ struct HeaderView: View {
                 
                 
                 VStack {
+                    
+                    //mark: NOME DO USUÁRIO
+                    
                     Text("leonardo")
                         .foregroundColor(Color.gray)
                         .font(.footnote)

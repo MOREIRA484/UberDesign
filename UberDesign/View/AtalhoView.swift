@@ -15,6 +15,9 @@ struct AtalhoView: View {
         
         VStack(alignment: .leading, spacing: 40){
             
+            
+            //MARK: - TITULO ATALHO !
+            
             Text("Atalhos")
                 .foregroundColor(Color.black)
                 .font(.title2)
@@ -22,6 +25,9 @@ struct AtalhoView: View {
             
             
             HStack(spacing: 50) {
+                
+                
+                //MARK: ForEach da imagem e do nome dos atalhos que tem no aplicativo 
                 
                 ForEach(rastrearCartao.rastreio) { atalho in
                     

@@ -16,11 +16,18 @@ struct SaldoView: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 10 ){
+            
+            
+            //MARK: - SALDO DISPONIVEL TITULO
+            
             Text("Saldo Disponivel")
                 .foregroundColor(Color.black)
                 .font(.title2)
                 .padding(.leading)
             
+            
+            
+            //MARK: - IF E ELSE PARA MOSTRAR OU N MOSTRAR O SALDO !
             
             HStack{
                 
@@ -40,6 +47,8 @@ struct SaldoView: View {
                 Spacer()
                     
                 
+                //MARK: - BOTÃO PARA MOSTRAR E NÃO MOSTRAR O SALDO!
+                
                 Button {
                     mostrarSaldo.toggle()
                 } label: {
@@ -49,6 +58,9 @@ struct SaldoView: View {
                 }
             }
             .padding(.leading)
+            
+            
+            //MARK: - SUBTITULO
     
             Text("Rendendo 100% CDI")
                 .font(.footnote)
@@ -58,6 +70,10 @@ struct SaldoView: View {
             
             VStack{
                 HStack(spacing: 30){
+                    
+                    
+                    //MARK: - AQUI FICA HSTACK DO EXTRATO, RENDIMENTOS, CONTROLE DE GASTOS
+                    
                     
                     Button {
                         print("Extrato")

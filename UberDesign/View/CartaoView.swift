@@ -12,6 +12,8 @@ struct CartaoView: View {
      
         ZStack{
             
+            //MARK: CARTÃO UBER IMAGEM
+            
             Button {
                 print("botão iniciado")
             } label: {
